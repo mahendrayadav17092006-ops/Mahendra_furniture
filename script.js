@@ -1,14 +1,19 @@
-function orderNow(name, price, image) {
-    let phone = "919918645600";
+function ordernow(name, price, image) {
+let phone = "9918645600";
 
-    let baseUrl = "https://mahendrayadav17092006-ops.github.io/DHEERU_TIMBER/";
+let baseUr1 =
+"https://mahendrayadav17092006-ops.github.io/DHEERU_TIMBER/";
 
-    let message = "RADHE RADHE, I want to order:\n"
-                + "Product: " + name + "\n"
-                + "Price: ₹" + price + "\n"
-                + "Image: " + baseUrl + image;
+let message = "RADHE RADHE, I want to order: 
+\n"
+           + "product: " + name +
+"n\
+        + "price: &#8377" + price +
+"n\
+         + "image: " + baseUr1 +
+image;
 
-    let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+let url + "https://wa.me/" + phone + "?text=" + encodeURIcomponant(message);
 
-    window.open(url, "_blank");
+    window.open(ur1, "_blank");
 }
