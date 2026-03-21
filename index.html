@@ -3,6 +3,7 @@
 <head>
 <title>DHEERU TIMBER AND TRADERS</title>
 <link rel="stylesheet" href="style.css">
+  <link rel="mainfest" href="mainfest.json">
 </head>
 <script src="script.js"></script>
 <body>
@@ -43,10 +44,16 @@
 <div class="product">
 <h3>wooden door</h3>
 <img src="door.jpeg">
-<p>price: &#8377;
+<p>price: &#8377;8000</p>
 
 </div>
-  <script src="script.js"></script8000</p>
+  <script src="script.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
 
 </body>
 </html>
